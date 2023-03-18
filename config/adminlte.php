@@ -247,15 +247,13 @@ return [
                     'url' => 'admin/employes/create',
                     'icon' => 'fas fa-fw fa-user-plus',
                 ],
-                
+
                 [
-                    'text' => 'ADD',
-                    'url' => 'admin/employes/add',
-                    'icon' => 'fas fa-fw fa-user-plus',
+
                 ],
 
             ],
-            
+
         ],
     ],
 

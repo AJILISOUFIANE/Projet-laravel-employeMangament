@@ -27,7 +27,7 @@ class EmployeFactory extends Factory
             'fullname' => $this->faker->name(),
             'depart' => $this->faker->word(),
             'hire_date' => $this->faker->date(),
-            'phone' => $this->faker->randomDigit(),
+            'phone' => $this->faker->numberBetween(),
             'address' => $this->faker->address(),
             'city' => $this->faker->state(),
         ];

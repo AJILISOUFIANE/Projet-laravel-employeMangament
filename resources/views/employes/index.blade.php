@@ -40,7 +40,7 @@
                                     <td>{{$employe->fullname}}</td>
                                     <td>{{$employe->depart}}</td>
                                     <td>{{$employe->hire_date}}</td>
-                                    <td>{{$employe->hire_date}}</td>
+                                    <td>{{$employe->Matricule}}</td>
                                     <td class="d-flex justify-content-center align-items-center">
                                         <a href="{{route("employes.show",$employe->Matricule)}}"
                                             class="btn btn-sm btn-primary">

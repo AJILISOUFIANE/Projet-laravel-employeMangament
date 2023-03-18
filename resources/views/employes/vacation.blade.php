@@ -13,29 +13,26 @@
                     </h3>
                 </div>
                 <div class="card-body">
-                    
                     <p class="lead">
-                      <h3><b>Full Name</b> : <b>{{$employe->fullname}}</b></h3>
+                        <b>{{$employe->fullname}}</b> is presently employed with me in the following :
                     </p>
                     <p class="lead">
-                      <h3>Matricule : <b>{{$employe->Matricule}}</b></h3> 
+                        <b>{{$employe->depart}}</b> departement.
                     </p>
                     <p class="lead">
-                      <h3>Departement : <b>{{$employe->depart}}</b></h3> 
+                        He is requesting a vacation starting from <b>________________</b>
                     </p>
                     <p class="lead">
-                        He is requesting a vacation starting from : <input type="date" class="col-sm-3 col-form-label">  To : <input type="date" class="col-sm-3 col-form-label"> 
+                        And ends on <b>______________</b>
                     </p>
-                    
 
                     <p class="m-5">
-                        <h5><b>Signature :</b></h5>
-                                ............
+                        ___________
+                        ___________
                     </p>
                     <a href="#" id="printPageButton" class="btn btn-sm btn-primary mb-3" onclick="document.getElementById('printPageButton').style.display = 'none';window.print();" class="btn btn-md btn-primary mr-2 mb-2">
                         <i class="fas fa-print"></i>
                     </a>
-                    
                 </div>
             </div>
         </div>
